@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User login menggunakan username dan password yang valid</description>
+   <name>TC_Login_001 (Record)</name>
+   <tag>#login</tag>
+   <comment></comment>
+   <testCaseGuid>a055ad30-fa37-4122-8099-bc78c90209cb</testCaseGuid>
+</TestCaseEntity>
