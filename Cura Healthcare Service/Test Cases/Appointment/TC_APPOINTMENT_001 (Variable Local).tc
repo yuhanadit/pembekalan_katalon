@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User membuat appointment dengan semua kolom diisi dengan data yang valid dan check Hospital Readmission.</description>
+   <name>TC_APPOINTMENT_001 (Variable Local)</name>
+   <tag>#appointment</tag>
+   <comment></comment>
+   <testCaseGuid>0c74987e-a6aa-4450-9ec0-94fb897fce29</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6cde44e0-609a-48f7-b661-f051a46e1631</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f912a4b0-3865-4cde-bfc7-e22a057e9d63</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>006d87b6-8c89-4c22-9a1e-8aac758c37f9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5ee66ab0-1566-4df2-884c-49eb501f82d8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b29cc9d2-b730-4183-84a9-f45d80f44efb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>6cde44e0-609a-48f7-b661-f051a46e1631</id>
+      <masked>false</masked>
+      <name>facility</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>f912a4b0-3865-4cde-bfc7-e22a057e9d63</id>
+      <masked>false</masked>
+      <name>readmission</name>
+   </variable>
+   <variable>
+      <defaultValue>'Medicaid'</defaultValue>
+      <description></description>
+      <id>006d87b6-8c89-4c22-9a1e-8aac758c37f9</id>
+      <masked>false</masked>
+      <name>program</name>
+   </variable>
+   <variable>
+      <defaultValue>'30/03/2024'</defaultValue>
+      <description></description>
+      <id>5ee66ab0-1566-4df2-884c-49eb501f82d8</id>
+      <masked>false</masked>
+      <name>visit_date</name>
+   </variable>
+   <variable>
+      <defaultValue>'Komentar'</defaultValue>
+      <description></description>
+      <id>b29cc9d2-b730-4183-84a9-f45d80f44efb</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+</TestCaseEntity>

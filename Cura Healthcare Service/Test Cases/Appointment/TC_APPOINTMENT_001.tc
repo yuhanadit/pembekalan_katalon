@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User membuat appointment dengan semua kolom diisi dengan data yang valid dan check Hospital Readmission.</description>
+   <name>TC_APPOINTMENT_001</name>
+   <tag>#appointment</tag>
+   <comment></comment>
+   <testCaseGuid>bd1ad096-7367-439a-9f68-0651e286046b</testCaseGuid>
+</TestCaseEntity>

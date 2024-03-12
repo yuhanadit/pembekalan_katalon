@@ -19,4 +19,29 @@
       <initValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Hongkong CURA Healthcare Center'</initValue>
+      <name>facility</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>true</initValue>
+      <name>readmission</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Medicaid'</initValue>
+      <name>program</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'30/03/2024'</initValue>
+      <name>visit_date</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Ini Komentar'</initValue>
+      <name>comment</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
