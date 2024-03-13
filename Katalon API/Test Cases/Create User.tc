@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3384fa5-b923-40d4-820e-d537947fcf63</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a5424f4e-fd2d-486c-84a4-2dacc9faeba7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a13d1237-c4e2-42f4-96e4-c934f3d0015b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fb281679-d695-4c10-bf04-a94502439700</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2050d8c9-3bec-4e2e-8dc8-926e0a6bfed6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Dower'</defaultValue>
+      <description></description>
+      <id>a5424f4e-fd2d-486c-84a4-2dacc9faeba7</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'BukanPasswordBiasa'</defaultValue>
+      <description></description>
+      <id>a13d1237-c4e2-42f4-96e4-c934f3d0015b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'FEMALE'</defaultValue>
+      <description></description>
+      <id>fb281679-d695-4c10-bf04-a94502439700</id>
+      <masked>false</masked>
+      <name>gender</name>
+   </variable>
+   <variable>
+      <defaultValue>'80'</defaultValue>
+      <description></description>
+      <id>2050d8c9-3bec-4e2e-8dc8-926e0a6bfed6</id>
+      <masked>false</masked>
+      <name>age</name>
+   </variable>
+</TestCaseEntity>

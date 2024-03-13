@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TDD Create User</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>5211c78e-928c-4940-95d8-b3e3e1aab901</testSuiteGuid>
+   <testCaseLink>
+      <guid>d8c2189b-d46a-4373-9c00-69a806e63db3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create User</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8f2e41af-aa9d-439f-99a9-a17c6755b3a0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/User Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>8f2e41af-aa9d-439f-99a9-a17c6755b3a0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>a5424f4e-fd2d-486c-84a4-2dacc9faeba7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8f2e41af-aa9d-439f-99a9-a17c6755b3a0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>a13d1237-c4e2-42f4-96e4-c934f3d0015b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8f2e41af-aa9d-439f-99a9-a17c6755b3a0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>gender</value>
+         <variableId>fb281679-d695-4c10-bf04-a94502439700</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8f2e41af-aa9d-439f-99a9-a17c6755b3a0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>age</value>
+         <variableId>2050d8c9-3bec-4e2e-8dc8-926e0a6bfed6</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
