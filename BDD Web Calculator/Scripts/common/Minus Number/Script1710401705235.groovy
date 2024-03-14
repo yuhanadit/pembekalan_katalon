@@ -17,6 +17,50 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(10)
-CucumberKW.runFeatureFile('Include/features/Plus.feature')
+def clickNumber(String number) {//bisa 1 digit, bisa 2 digit
+	
+	def digits = number.toCharArray()
+	for(def digit : digits) {
+		println "digit" + digit
+		switch (digit) {
+			case '0':
+			WebUI.click(findTestObject('Object Repository/button_0'))
+			break
+			case '1':
+			WebUI.click(findTestObject('Object Repository/button_1'))
+			break
+			case '2':
+			WebUI.click(findTestObject('Object Repository/button_2'))
+			break
+			case '3':
+			WebUI.click(findTestObject('Object Repository/button_3'))
+			break
+			case '4':
+			WebUI.click(findTestObject('Object Repository/button_4'))
+			break
+			case '5':
+			WebUI.click(findTestObject('Object Repository/button_5'))
+			break
+			case '6':
+			WebUI.click(findTestObject('Object Repository/button_6'))
+			break
+			case '7':
+			WebUI.click(findTestObject('Object Repository/button_7'))
+			break
+			case '8':
+			WebUI.click(findTestObject('Object Repository/button_8'))
+			break
+			case '9':
+			WebUI.click(findTestObject('Object Repository/button_9'))
+			break
+		}
+	}
+}
 
+clickNumber(number1.toString())
+
+WebUI.click(findTestObject('Object Repository/button_-'))
+
+clickNumber(number2.toString())
+
+WebUI.click(findTestObject('Object Repository/button_equal'))

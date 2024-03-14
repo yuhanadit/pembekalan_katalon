@@ -18,5 +18,5 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(10)
-CucumberKW.runFeatureFile('Include/features/Plus.feature')
+CucumberKW.runFeatureFile('Include/features/Minus.feature')
 

@@ -16,7 +16,35 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement 
 
-WebUI.delay(10)
-CucumberKW.runFeatureFile('Include/features/Plus.feature')
+def getNumberFromSpan(String text) {
+	String result = text.replaceAll(".*?</span>", "")
+	result = text.replace("</span>","")
+	return result
+}
 
+WebUI.openBrowser(GlobalVariable.base_url)
+//WebUI.scrollToElement(findTestObject('Object Repository/box_list'), 10)
+
+List<WebElement> dataList = WebUI.findWebElements(findTestObject('Object Repository/box_list'),10)
+List<WebElement> parentList = WebUI.findWebElements(findTestObject('Object Repository/box_parent_list'),10)
+
+
+def lastCount = 1
+def i = 0
+for(;i < dataList.size(); i++) {
+	text = getNumberFromSpan(parentList.get(i).text)
+	println text
+	println lastCount
+	if(text.toString().trim() == lastCount.toString().trim()) {
+		WebUI.switchToDefaultContent()
+		dataList[i].click()
+		dataList = WebUI.findWebElements(findTestObject('Object Repository/box_list'),10)
+		parentList = WebUI.findWebElements(findTestObject('Object Repository/box_parent_list'),10)
+		lastCount++
+		i = 0
+	}
+}
+
+WebUI.closeBrowser()

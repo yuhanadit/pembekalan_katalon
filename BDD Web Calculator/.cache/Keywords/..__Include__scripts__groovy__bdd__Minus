@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "A7E74132E7B360FD803F701BFF9CF5C0",
+  "keywordFileContentHash": "381EBD88DB2FCA54A12740F094CDFAAB",
   "keywordClasses": [
     {
-      "name": "bdd.Common",
+      "name": "bdd.Minus",
       "keywordMethods": []
     }
   ],
