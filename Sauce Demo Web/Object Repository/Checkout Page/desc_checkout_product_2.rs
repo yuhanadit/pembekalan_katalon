@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>desc_checkout_product_2</name>
+   <tag></tag>
+   <elementGuidId>b3b30274-dde3-4ebe-93aa-046fe9b27877</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;checkout_summary_container&quot;]/div/div[1]/div[4]/div[2]/div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>b9ac7e70-e2c2-48fd-8f9d-8d36472cc46c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1710737314162</value>
+      <webElementGuid>7e43f256-9bab-47af-b95a-3a8d08b7b712</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

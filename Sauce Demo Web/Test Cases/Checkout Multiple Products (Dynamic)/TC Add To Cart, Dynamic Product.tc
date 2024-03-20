@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC Add To Cart, Dynamic Product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>05e3155c-dee0-4e9d-b792-2b86443445f1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fb92d483-6fb5-40cb-9e63-3f9b016fa95d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>70e8086a-7036-4f96-96e9-f4f4f07c2594</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7a5cd26a-1aa3-4663-a7b2-57af67fccdd5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'POSITION'</defaultValue>
+      <description>POSITION atau NAME</description>
+      <id>fb92d483-6fb5-40cb-9e63-3f9b016fa95d</id>
+      <masked>false</masked>
+      <name>add_product_by</name>
+   </variable>
+   <variable>
+      <defaultValue>'1;2;4'</defaultValue>
+      <description>Dipisahkan berdasarkan ;</description>
+      <id>70e8086a-7036-4f96-96e9-f4f4f07c2594</id>
+      <masked>false</masked>
+      <name>product_position</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sauce Labs Bolt T-Shirt;Sauce Labs Onesie;Test.allTheThings() T-Shirt (Red)'</defaultValue>
+      <description>Dipisahkan berdasarkan ;</description>
+      <id>7a5cd26a-1aa3-4663-a7b2-57af67fccdd5</id>
+      <masked>false</masked>
+      <name>product_name</name>
+   </variable>
+</TestCaseEntity>
